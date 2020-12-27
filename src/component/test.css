@@ -1,0 +1,59 @@
+.div{   
+    color: rgb(214, 214, 214);
+    width: 40px;
+    font-size: xx-large;
+    background-color:rgb(235, 253, 255);
+    text-align: upercse;
+    padding: 0;
+    margin-top: 20px;
+    height: ;
+    color:rgb(0, 140, 158);
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5%;
+    padding-bottom: 20px;
+    padding: 10px;
+    height: 90%;
+    opacity: 1;
+}
+
+.scour {
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 20px;
+    height: 100%;
+    background-color: rgba(1, 183, 207, 0.459);
+    display: inline-block;
+    padding: 5px;
+    transition: background-color 0.9s ;
+    position: fixed;
+    z-index: 1000;
+    height: 70px;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.493);
+   
+}
+
+overlay {
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.11);
+    background-position:center;
+    background-size: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+  border: 1px solid red;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: inline;
+  margin: 20px;
+  
+}

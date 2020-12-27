@@ -1,0 +1,56 @@
+.navbar-content {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    opacity: 1;
+    border: 0px solid red;
+    top: 0;
+}
+.navbar {
+    border: 0px solid yellow;
+}
+.navbar-nav {
+    border:0px solid red;
+    margin: auto;
+}
+.navbar.navbar-expand-lg.navbar-light {
+    background-color: rgba(29, 29, 29, 0.589);
+}
+.dropdown-item.he:hover {
+    background-color:   rgb(102, 102, 102);
+}
+.navbar-brand img {
+    width: 150px;
+    border: 0px solid red;
+    border-radius: 10px;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-links.color {
+    color: white;
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    border: 0px solid red;
+    transition:color 0.3s ;
+    
+}
+.nav-item {
+    transition: background-color 0.3s;
+}
+.nav-item:hover {
+    background-color: rgb(223, 223, 223);
+}
+.nav-item:hover .nav-links.color {
+    color: black;
+}
+
+.form-inline {
+    margin: 10px;
+}
+.collapse.navbar-collapse {
+    background-color: rgba(48, 47, 47, 0.548);
+    border-radius: 5px;
+    border: 0px solid red;
+}

@@ -1,0 +1,170 @@
+
+{
+    "works" : [
+        {
+            "id" : 1,
+            "image": "/images/Untitled-2.jpg",
+            "title": "Website",
+            "body": "I am create the website by programing language React.js "
+        },
+        {
+            "id" : 2,
+            "image": "/images/Untitled-3.jpg",
+            "title": "Quality Assurance",
+            "body": "I use a selenium automation tool helping with my experian to check up the functionality and responsive of the  website ."
+        },
+        {
+            "id" : 3,
+            "image": "/images/Untitled-1.jpg",
+            "title": "API",
+            "body": "I can use API the Connection Tool"
+        }
+        
+
+    ],
+
+    "portfolio" : [
+        {
+            "id":1,
+            "image": "/images/portfolio-img1.jpg"
+        },
+        {
+            "id":2,
+            "image": "/images/portfolio-img2.jpg"
+        },
+        {
+            "id":3,
+            "image": "/images/portfolio-img3.jpg"
+        },
+        {
+            "id":4,
+            "image": "/images/portfolio-img4.jpg"
+        }
+    ] ,
+    "social" : [
+        {
+            "id": 1,
+            "icon" : "fab fa-adversal",
+            "title" : "Follow Me on",
+            "body" : "Social Facebook"
+        },
+        {
+            "id": 2,
+            "icon" : "fab fa-adversal",
+            "title" : "Tweet Me on",
+            "body" : "Social twitter"
+        },
+        {
+            "id": 3,
+            "icon" : "fab fa-adversal",
+            "title" : "Pin Me on",
+            "body" : "Social Pinterest"
+        }
+    ] ,
+    "profil" : [
+        {
+            "id": 1,
+            "title" : "HTML",
+            "perc" :"100%",
+            "parent" : "11111111111111111111111111111111111111111111111111111111111111"
+            
+        },
+        {
+            "id": 2,
+            "title" : "CSS",
+            "perc" : "100%",
+            "parent" : "11111111111111111111111111111111111111111111111111111111111111"
+            
+        },
+        {
+            "id": 3,
+            "title" : "React.js",
+            "perc" : "90%",
+            "parent" : "111111111111111111111111111111111111111111111111111111"
+        },
+        {
+            "id": 2,
+            "title" : "Media Query",
+            "perc" : "90%",
+            "parent" : "111111111111111111111111111111111111111111111111111111"
+            
+        },
+        {
+            "id": 2,
+            "title" : "GetHub",
+            "perc" : "90%",
+            "parent" : "111111111111111111111111111111111111111111111111111111"
+            
+        },
+        {
+            "id": 2,
+            "title" : "BootStrap",
+            "perc" : "85%",
+            "parent" : "111111111111111111111111111111111111111111111111111"
+            
+        },
+        {
+            "id": 2,
+            "title" : "CSS3",
+            "perc" : "80%",
+            "parent" : "111111111111111111111111111111111111111111111111"
+            
+        },
+        {
+            "id": 2,
+            "title" : "HTML5",
+            "perc" : "80%",
+            "parent" : "111111111111111111111111111111111111111111111111"
+            
+        },
+        {
+            "id": 2,
+            "title" : "JavaScript", 
+            "perc" : "80%",
+            "parent" : "111111111111111111111111111111111111111111111111"
+            
+        },
+        {
+            "id": 2,
+            "title" : "Jquery",
+            "perc" : "80%",
+            "parent" : "111111111111111111111111111111111111111111111111"
+            
+        },
+        {
+            "id": 2,
+            "title" : "NodeJs",
+            "perc" : "75%",
+            "parent" : "111111111111111111111111111111111111111111111"
+            
+        },
+        {
+            "id": 2,
+            "title" : "PostMan",
+            "perc" : "70%",
+            "parent" : "111111111111111111111111111111111111111111"
+            
+        },
+        {
+            "id": 2,
+            "title" : "MongoDB",
+            "perc" : "35%",
+            "parent" : "111111111111111111111"
+            
+        },
+        {
+            "id": 2,
+            "title" : "Express js",
+            "perc" : "25%",
+            "parent" : "111111111111111"
+            
+        },
+        {
+            "id": 2,
+            "title" : "Adobe Illustrator",
+            "perc" : "25%",
+            "parent" : "111111111111111"
+            
+        }
+    ] 
+}
