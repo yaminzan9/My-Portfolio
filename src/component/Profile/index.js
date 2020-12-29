@@ -67,8 +67,8 @@ function Profile () {
                         </Profile_item>
                         <Profile_item>
                         <GoMarkGithub></GoMarkGithub>
-                            <Span>GetHub</Span>
-                            <Span_web>https://github.com/yaminzan</Span_web>
+                            <Span>GitHub</Span>
+                            <Span_web>https://github.com/yaminzan9</Span_web>
                         </Profile_item>
                         <Profile_item>
                             <Span>arabic</Span>
