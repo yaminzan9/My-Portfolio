@@ -10,7 +10,7 @@ class SocialMedia extends React.Component {
     }
 
     componentDidMount () {
-        axios.get('./data.json')
+        axios.get('data.json')
         .then( res =>
             { this.setState({ social : res.data.social })
             })

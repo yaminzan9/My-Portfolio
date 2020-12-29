@@ -6,6 +6,7 @@ import {Profile_skills , Profile_skills_profile , Profile_list , Profile_item , 
     Profile_skills_title_span , PorfilePart , Scour ,Div , Scour1} from './style';
 import { GoMarkGithub } from "react-icons/go";
 import {GiSkills} from "react-icons/gi";
+import Data from '../../data.json';
 
 
 
@@ -17,7 +18,7 @@ function Profile () {
         axios.get('data.json').then( res => { setPro(res.data.profil)})
     }, [] )
 
-    const ProList = pro.map( (proItem) => {
+    const ProList = Data.profil.map( (proItem) => {
         return (
             <PorfilePart  key={proItem.id} >
                 <pro_skills_title>{proItem.title}</pro_skills_title>

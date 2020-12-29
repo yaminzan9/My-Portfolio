@@ -2,11 +2,12 @@ import styled from 'styled-components';
 
 export const Aboutsection = styled.div`
 border:solid 0px red;
-height: 1000px;
-background: url('../images/about..jpg');
-background-size: cover;
+height:700px;
+background: url(https://github.com/HamzaNabil/Template-HTML_CSS_MediaQuery/blob/master/images/creative/about-bg.jpg?raw=true);
+background-size:contain;
+background-repeat: no-repeat;
 background-position:center;
-background-attachment: fixed
+background-attachment:initial;
 `
 export const AboutInfo = styled.div`
 padding-top: 100px;
@@ -19,7 +20,7 @@ export const AboutTitle = styled.h2`
 font-weight: bold;
 font-size: 50px;
 margin:10px 0;
-color:white;
+color:black;
 `
 export const Span = styled.span`
 font-weight: normal
@@ -31,7 +32,7 @@ margin-bottom: 20px;
 margin-top:10px
 `
 export const InfoDesc = styled.p`
-color: white;
+color: black;
 margin-bottom: 15px;
 line-height: 1.8;
 font-size:20px;
@@ -44,5 +45,5 @@ export const Overlay =styled.div`
     border: 0px solid red;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.400);
+    background-color: rgba(0, 0, 0, 0.100);
 `

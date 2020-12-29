@@ -1,5 +1,6 @@
 import React from 'react';
-import {HomeSection , HomeTitle ,HomeInformation ,HomeDesc ,Span ,HomeBtn ,HomeInfo , Hw} from './style.js';
+import {HomeSection , HomeTitle ,HomeInformation ,HomeDesc ,Span ,HomeBtn ,HomeInfo } from './style.js';
+
 function Home () {
     return (
     <div id="Home">

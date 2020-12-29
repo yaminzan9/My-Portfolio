@@ -1,7 +1,8 @@
 import React , {useState ,useEffect} from 'react';
 import style from './style.css';
 import axios from 'axios';
-import { BsArrowsAngleExpand } from "react-icons/bs";
+import Data from '../../data.json';
+
 
 function Portoflio () {
 
@@ -11,7 +12,7 @@ function Portoflio () {
         axios.get('data.json').then( res => { setImages(res.data.portfolio)})
     }, [])
 
-    const PortfolioImages = images.map( (imageItem) => {
+    const PortfolioImages = Data.portfolio.map( (imageItem) => {
         return (
             <div className="box" >
                 <div key={imageItem.id}>

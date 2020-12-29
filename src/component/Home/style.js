@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
+
 export const HomeSection = styled.div`
     top:150px;
     height: 500px;
-    background: url('images/home-bg.jpg');
+    background: url(https://static.wixstatic.com/media/434701_911942d39bb34942a25509b9f3edca6c.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;

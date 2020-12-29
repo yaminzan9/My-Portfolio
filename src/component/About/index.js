@@ -1,5 +1,7 @@
 import React from 'react';
 import {AboutInfo , AboutTitle , Aboutsection , Anchor , InfoDesc , InfoDir , Span , Overlay} from './style.js';
+
+
 function About() {
     return (
         <Aboutsection>

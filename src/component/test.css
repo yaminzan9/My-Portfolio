@@ -57,3 +57,23 @@ li {
   margin: 20px;
   
 }
+
+
+const [ works , setWorks] = useState([])
+
+useEffect ( () => {
+    axios.get('data.json').then( res => { setWorks(res.data.works)})
+}, [] )
+
+const workslist = works.map( (worksItem) => {
+    return (
+        <WorkPart first={worksItem.id} key={worksItem.id} >
+            <Imegs src={worksItem.image} ></Imegs>
+            <PartTitle>{worksItem.title}</PartTitle>
+            <Line/>
+            <PartDesc>
+                {worksItem.body}
+            </PartDesc>
+        </WorkPart>
+    )
+})

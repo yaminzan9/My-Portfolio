@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbarsection , Logo , LogoText , Ullist , ListItem , Anchor , ImgLogo } from './style.js';
-import Logoimg1 from "../images/yaminlogo.jpg";
-function Navbar () {
+import Logoimg1 from "../imges-import/myporty.jpg";
+function Navbar () {    
     return (
         <Navbarsection>
             
