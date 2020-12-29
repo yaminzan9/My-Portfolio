@@ -3,19 +3,19 @@
     "works" : [
         {
             "id" : 1,
-            "image": "/imges-public/Untitled-2 (1).jpg",
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-2%20(1).jpg?raw=true",
             "title": "Website",
             "body": "I am create the website by programing language React.js "
         },
         {
             "id" : 2,
-            "image": "/imges-public/Untitled-3 (1).jpg",
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-3%20(1).jpg?raw=true",
             "title": "Quality Assurance",
             "body": "I use a selenium automation tool helping with my experian to check up the functionality and responsive of the  website ."
         },
         {
             "id" : 3,
-            "image": "/imges-public/Untitled-1 (1).jpg",
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-1%20(1).jpg?raw=true",
             "title": "API",
             "body": "I can use API the Connection Tool"
         }
@@ -26,19 +26,19 @@
     "portfolio" : [
         {
             "id":1,
-            "image": "/imges-public/myport9.jpg"
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/myport7.jpg?raw=true"
         },
         {
             "id":2,
-            "image": "/imges-public/myport7.jpg"
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/myport3.jpg?raw=true"
         },
         {
             "id":3,
-            "image": "/imges-public/myport3.jpg"
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/myport10.jpg?raw=true"
         },
         {
             "id":4,
-            "image": "/imges-public/myport10.jpg"
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/myport9.jpg?raw=true"
         }
     ] ,
     "social" : [

@@ -14,7 +14,7 @@ function Work () {
     }, [] )    
     
     const workslist = Data.works.map( (worksItem) => {
-        
+        console.log(worksItem.image);
         return (
             
             <WorkPart first={worksItem.id} key={worksItem.id} >
@@ -27,6 +27,7 @@ function Work () {
             </WorkPart>
             
         )
+        
     })
         
         return (
