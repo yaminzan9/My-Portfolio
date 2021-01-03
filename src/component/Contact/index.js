@@ -1,6 +1,6 @@
 import React from 'react';
-import {ContactSection ,  ContactTitle , Span , Form , Input , FormInput ,
-     InputText , InputEmail , InputExp , TextArea , InputSubmit} from './style.js';
+import {ContactSection ,  ContactTitle , Span , Form , Input , FormInput , Cover ,
+     InputText , InputEmail , InputExp , TextArea , BtnContactSubmit , Div , Img , Formgroup , ContactImage} from './style.js';
 import Footer from './../Footer/index';
 import emailjs from 'emailjs-com';
 
@@ -20,23 +20,40 @@ function sendEmail(e) {
 
 function Contact () {
     return (
+        <Div id="contact" >
+        <Cover>
         <React.Fragment>
-        <ContactSection>
-            <div className="container">
-                <ContactTitle><Span>Drop </Span>Me A line</ContactTitle>
+        <ContactSection className="container" >
+            <ContactImage>
+                <Img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+            </ContactImage>
+                <ContactTitle>Drop Me A line</ContactTitle>
                 <Form onSubmit={sendEmail}>
-                    <FormInput>
-                        <InputText type="text" placeholder="Your Name" name="name"/>
-                        <InputEmail type="email" placeholder="Your Email" name="email"/>
+                    <FormInput className="row" >
+                    <div className="col md 6" >
+                    <Formgroup className="formgroup" >
+                    <InputText className="form-control" type="text" placeholder="Your Name" name="name"/>
+                    </Formgroup>
+                    <Formgroup className="formgroup" >
+                    <InputEmail className="form-control" type="email" placeholder="Your Email" name="email"/>
+                    </Formgroup>
+                    <Formgroup className="formgroup" >
+                    <InputExp className="form-control" type="text"  placeholder="Your Subject" name="subject"/>
+                    </Formgroup>
+                    <Formgroup className="formgroup" >
+                    <BtnContactSubmit type="submit" value="Send Message">submit</BtnContactSubmit>
+                    </Formgroup>
+                    </div>
+                    <div>
+                    <TextArea className="form-control" cols="30" rows="10"  placeholder="Your Message" name="message"></TextArea>
+                    </div>
                     </FormInput>
-                    <InputExp type="text" className="sub" placeholder="Your Subject" name="subject"/>
-                    <TextArea cols="30" rows="10" placeholder="Your Message" name="message"></TextArea>
-                    <InputSubmit type="submit" value="Send Message"/>
                 </Form>
-            </div>
+                
         </ContactSection>
-        <Footer/>
         </React.Fragment>
+        </Cover>
+        </Div>
     )
 }
 

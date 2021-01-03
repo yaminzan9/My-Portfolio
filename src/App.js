@@ -8,8 +8,7 @@ function App() {
   return (
     <BrowserRouter>
      <Navbar/>
-     <Route exact path='/' component={Index}/>
-     <Route path='/Contact' component={Contact}/>
+     <Index/>
      </BrowserRouter>
   );
 }

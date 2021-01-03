@@ -14,12 +14,11 @@ function Navbar () {
             
             
             <Ullist>
+                <ListItem><Anchor href="#Home">Home</Anchor></ListItem>
                 <ListItem><Anchor href="#Work">Work</Anchor></ListItem>
                 <ListItem><Anchor href="#Portfolio">Portfolio</Anchor></ListItem>
                 <ListItem><Anchor href="#Profile">Profile</Anchor></ListItem>
-                <ListItem><Anchor href="#Home">back Home</Anchor></ListItem>
-                <ListItem><Link to="/" ><Anchor>Home</Anchor></Link></ListItem>
-                <ListItem><Link to="/Contact"><Anchor>Contact</Anchor></Link></ListItem>
+                <ListItem><Anchor href="#contact" >Contact</Anchor></ListItem>
             </Ullist>
             
         </div>

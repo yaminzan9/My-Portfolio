@@ -1,64 +1,98 @@
 import styled from 'styled-components';
 
 
+
+export const Div =styled.div`
+    padding-top: 100px;
+    border: 0px solid red;
+    background: white;
+`
+export const Cover =styled.div`
+padding: 10px 0px;
+margin:50px;
+border: 0px solid red;
+background: rgb(1, 183, 207);
+border-radius: 10px;
+height:900px;
+`
+
 export const ContactSection = styled.div`
-    padding: 70px 0;
-    text-align: center
+background:  white;
+margin-top: 10%;
+margin-bottom: 5%;
+width: 70%;
+border-radius: 20px;
+border: 0px solid red;
 `
 
 export const ContactTitle = styled.h2`
-font-size: 60px;
-margin-bottom: 30px
+margin-bottom: 0;
+margin-top: 0;
+text-align: center;
+color: black;
 `
 
 export const Span = styled.span`
-font-weight: normal
+
 `
 
 export const Form = styled.form`
-width: 70%;
-margin: auto;
+padding: 14%;
+`
+
+export const Formgroup =styled.div`
+
 `
 
 export const Input = styled.input`
-    box-sizing: border-box;
-    outline: 0;
-    padding: 5px;
-    margin-bottom: 10px
+    
 `
 
 export const FormInput = styled.div`
-overflow: hidden
+margin-bottom: -7%;
 `
 
 export const InputText = styled(Input)`
-float: left;
-width: 49%;
+margin:10px;
+
 `
 
 export const InputEmail = styled(Input)`
-float: right;
-width: 49%;
+margin:10px;
 `
 
 export const InputExp = styled(Input)`
-width: 100%;
+margin:10px;
 `
 
 export const TextArea = styled.textarea`
-width: 100%;
-outline: 0;
-
-background: rgba(0, 0, 0, 0.11);
+margin:10px;
 `
 
-export const InputSubmit = styled(Input)`
-width: 60%;
-background: rgba(1, 183, 207);
-border: 1px solid #ccc;
-color: black;
-border-radius: 7px;
+export const BtnContactSubmit = styled.button`
+width: 100%;
+border: none;
+border-radius: 10px;
+padding: 5px;
+background: rgb(1, 183, 207);
+font-size:20px;
+font-weight: 700;
+color: #fff;
+margin-left:10px;
 cursor: pointer;
+&:hover {
+    background: rgb(245, 244, 244);
+    color : rgb(1, 183, 207);
+}
+`
+export const ContactImage =styled.div`
+    text-align: center;
+`
+export const Img =styled.img`
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
 `
 
 

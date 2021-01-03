@@ -15,12 +15,11 @@ function Index() {
         <div>
             
             <Home/>
-            
             <Work/>
             <Portoflio/>
             <Profile/>
             <About/>
-            
+            <Contact/>
             <Footer/>
         </div>
     )
