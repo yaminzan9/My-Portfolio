@@ -130,15 +130,35 @@ export const HomeBtn = styled.button`
     border-radius:5px;
     color: #fff;
     font-size: 18px;
-    width: 150px;
+    width: 170px;
     border: 0;
     padding: 15px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 650;
 
     &:hover {
         background: #fff;
         color : rgb(1, 183, 207);
+    }
+    @media screen and (min-width:300px){
+        border :0px solid red;
+        font-size: 12px;
+        width: 110px;
+    }
+    @media screen and (min-width:600px){
+        border :0px solid black;
+        font-size: 15px;
+        width: 150px;
+    }
+    @media screen and (min-width:800px){
+        border :0px solid yellow;
+        font-size: 20px;
+        width: 170px;
+    }
+    @media screen and (min-width:1100px){
+        border :0px solid green;
+        font-size: 25px;
+        width: 170px;
     }
 `
 

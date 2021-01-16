@@ -1,5 +1,5 @@
 import React, {useState , useEffect} from 'react';
-import {WorkSection , WorkTitle , WorkPart , Imegs , PartTitle , Line , Span , PartDesc} from './style.js';
+import {WorkSection , WorkTitle , WorkPart , Imegs , PartTitle , Line , Span , PartDesc ,Mg} from './style.js';
 import axios from 'axios';
 import Data from '../../data.json';
 
@@ -23,7 +23,7 @@ function Work () {
                 <Line/>
                 <PartDesc>
                     {worksItem.body}
-                </PartDesc>
+                </PartDesc> 
             </WorkPart>
             
         )
@@ -31,14 +31,14 @@ function Work () {
     })
         
         return (
-            <div id="Work" >
+            <Mg id="Work" >
             <WorkSection>
             <div  className="container">
                 <WorkTitle><Span>My</Span> Work</WorkTitle>
                 {workslist}
             </div>
         </WorkSection>
-        </div>
+        </Mg>
         )
 }
 

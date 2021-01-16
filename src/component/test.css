@@ -3,9 +3,27 @@
     background-color:yellow;
     color:rgb(1, 183, 207) ;
     margin: 10px;
-    background-position: center;
-    background-size:initial;
+    background-attachment: fixed;
+    background-size:0px;
     background-repeat: no-repeat;
+    background-position: center;
     font-weight: 500;
     color: rgb(41, 41, 41);
+}
+
+@media screen and (min-width:300px){
+    border :0px solid red;
+    
+}
+@media screen and (min-width:600px){
+    border :0px solid black;
+    
+}
+@media screen and (min-width:800px){
+    border :0px solid yellow;
+    
+}
+@media screen and (min-width:1100px){
+    border :0px solid green;
+   
 }
