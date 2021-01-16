@@ -1,7 +1,11 @@
 .div{
     margin-top: 100px;
-    background-color: white;
+    background-color:yellow;
     color:rgb(1, 183, 207) ;
     margin: 10px;
-    
+    background-position: center;
+    background-size:initial;
+    background-repeat: no-repeat;
+    font-weight: 500;
+    color: rgb(41, 41, 41);
 }

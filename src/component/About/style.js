@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Aboutsection = styled.div`
 border:solid 0px red;
 height:700px;
-background: url(https://github.com/HamzaNabil/Template-HTML_CSS_MediaQuery/blob/master/images/creative/about-bg.jpg?raw=true);
+background: url(file:///C:/Users/USER/Downloads/blurred-abstract-background-interior-view-looking-out-toward-empty-office-lobby-entrance-doors-glass-curtain-wall-with-frame.jpg);
 background-size:contain;
 background-repeat: no-repeat;
 background-position:center;

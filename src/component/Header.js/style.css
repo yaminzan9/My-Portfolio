@@ -4,24 +4,36 @@
     z-index: 1000;
     opacity: 1;
     border: 0px solid red;
+    height: 100px;
     top: 0;
 }
 .navbar {
     border: 0px solid yellow;
 }
+.LogoImg {
+    border: 0px solid yellow;
+    padding: 0px;
+}
+.collapse a {
+    color: black;
+}
+.collapse a:hover {
+    text-decoration: none;
+    color: white;
+}
 .navbar-nav {
-    border:0px solid red;
+    border: 0px solid red;
     margin: auto;
 }
 .navbar.navbar-expand-lg.navbar-light {
-    background-color: rgba(29, 29, 29, 0.589);
+    background-color: white;
 }
 .dropdown-item.he:hover {
-    background-color:   rgb(102, 102, 102);
+    background-color:   rgb(1, 183, 207);
 }
 .navbar-brand img {
     width: 150px;
-    border: 0px solid red;
+    border: 0px solid green;
     border-radius: 10px;
 }
 
@@ -36,11 +48,14 @@
     transition:color 0.3s ;
     
 }
+
 .nav-item {
+    margin: 7px 10px;
+    padding: 2px 5px;
     transition: background-color 0.3s;
 }
 .nav-item:hover {
-    background-color: rgb(223, 223, 223);
+    background-color: rgba(1, 183, 207, 0.486);
 }
 .nav-item:hover .nav-links.color {
     color: black;
@@ -50,7 +65,21 @@
     margin: 10px;
 }
 .collapse.navbar-collapse {
-    background-color: rgba(48, 47, 47, 0.548);
+    background-color:  white;
     border-radius: 5px;
     border: 0px solid red;
+}
+.midea ul {
+    border: 0px solid red;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.midea ul li {
+    display: inline;
+    margin: 5px;
+    list-style: none;
+    font: 2.5em sans-serif;
+    padding: 10px;
+    color: teal;
 }

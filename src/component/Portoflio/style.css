@@ -42,7 +42,7 @@
     margin: 20px;
     border-radius: 20px;
     bottom: 0;
-    background: rgba(1, 183, 207, 0.300);
+    background: rgba(1, 183, 207, 0);
     font-size: 15px;
     transition: opacity 0.5s;
     opacity: 0.2;
@@ -59,7 +59,7 @@
     font-size: 20px;
     display: block;
     padding: 10px 20px;
-    opacity: 0.2;
+    opacity: 0;
     transition: top 0.9s , opacity 0.9s;
     cursor: pointer;
     border: 0px solid #eb5424;

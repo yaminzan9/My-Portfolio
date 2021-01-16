@@ -7,7 +7,6 @@ import { BrowserRouter, Route } from 'react-router-dom';
 function App() {
   return (
     <BrowserRouter>
-     <Navbar/>
      <Index/>
      </BrowserRouter>
   );
