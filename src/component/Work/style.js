@@ -17,16 +17,16 @@ export const WorkTitle = styled.h2`
     font-size: 60px;
     text-align: center;
     text-transform: uppercase; 
-    @media screen and (min-width:300px){
-        border :1px solid red;
+    @media screen and (min-width:279px){
+        border :0px solid red;
         font-size: 45px;
     }
     @media screen and (min-width:600px){
-        border :1px solid black;
+        border :0px solid black;
         font-size: 50px;
     }
     @media screen and (min-width:800px){
-        border :1px solid yellow;
+        border :0px solid yellow;
         font-size: 60px;
     }
     @media screen and (min-width:1100px){
@@ -40,7 +40,6 @@ export const Span = styled.span`
 `
 
 export const WorkPart = styled.div`
-    margin-top: 20px;
     width: 30%;
     float: left;
     height: auto;
@@ -48,26 +47,30 @@ export const WorkPart = styled.div`
     border: 0px solid #888;
     box-sizing: border-box;
     text-align: center;
-    @media screen and (min-width:300px){
-        border :1px solid red;
+    @media screen and (min-width:279px){
+        border :0px solid red;
         width: 33%;
+        padding: 50px 0;
         margin-left: ${props => props.first === 1 ? '0' : '.5%'}
     }
     @media screen and (min-width:600px){
-        border :1px solid black;
+        border :0px solid black;
         width: 33%;
+        padding: 70px 0;
         margin-left: ${props => props.first === 1 ? '0' : '.5%'}
         
     }
     @media screen and (min-width:800px){
-        border :1px solid yellow;
+        border :0px solid yellow;
         width: 33%;
+        padding: 80px 0;
         margin-left: ${props => props.first === 1 ? '0' : '.5%'}
         
     }
     @media screen and (min-width:1100px){
-        border :1px solid green;
+        border :0px solid green;
         width: 30%;
+        padding: 120px 0;
         margin-left: ${props => props.first === 1 ? '0' : '5%'}
         
     }
@@ -81,7 +84,7 @@ export const Imegs = styled.img`
     border:solid 0px red;
     margin-bottom: 20px;
     width:70px;
-    @media screen and (min-width:300px){
+    @media screen and (min-width279px){
         border :0px solid red;
         width:40px;
     }
@@ -103,7 +106,7 @@ export const PartTitle = styled.h4`
     font-size: 25px;
     color: rgb(1, 183, 207);
     margin-bottom: 20px;
-    @media screen and (min-width:300px){
+    @media screen and (min-width:279px){
         border :0px solid red;
         font-size: 15px;
     }
@@ -124,15 +127,16 @@ export const PartTitle = styled.h4`
 export const Line = styled.hr`
     width: 60%;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: red;
 `
 
 export const PartDesc = styled.p`
     font-size: 15px;
     color:  rgb(22, 22, 22);
-    padding: 20px;
-    @media screen and (min-width:300px){
+    text-align: center;
+    padding: 10px;
+    @media screen and (min-width:279px){
         border :0px solid red;
         font-size: 10px;
     }

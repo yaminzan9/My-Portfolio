@@ -9,7 +9,7 @@ export const Div =styled.div`
 `
 export const Cover =styled.div`
 padding: 10px 0px;
-margin:50px;
+
 border: 0px solid red;
 background: rgb(1, 183, 207);
 border-radius: 10px;
@@ -18,11 +18,13 @@ height:900px;
 
 export const ContactSection = styled.div`
 background:  white;
-margin-top: 10%;
+margin-top: 3%;
 margin-bottom: 5%;
 width: 70%;
 border-radius: 20px;
 border: 0px solid red;
+box-shadow: 10px 10px 10px 0px rgba(207, 207, 207 , 0.5), 2px 2px 10px 0px rgb(200,200,200);
+
 `
 
 export const ContactTitle = styled.h2`

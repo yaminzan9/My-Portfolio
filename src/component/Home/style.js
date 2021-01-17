@@ -12,7 +12,7 @@ export const HomeSection = styled.div`
     background-repeat: no-repeat;
     text-align: center;
     position: relative;
-    @media screen and (min-width:300px){
+    @media screen and (min-width:279px){
         height: 350px;
         
     }
@@ -34,7 +34,7 @@ export const HomeInformation = styled.div`
     left: 50%;
     transform: translate(-50%,-50%);
     border :0px solid red;
-    @media screen and (min-width:300px){
+    @media screen and (min-width:279px){
         border :0px solid red;
         width :90%;
     }
@@ -55,7 +55,7 @@ export const HomeTitle = styled.h2`
     font-size: 60px;
     font-weight: bold;
     color: black;
-    @media screen and (min-width:300px){
+    @media screen and (min-width:279px){
         border :0px solid red;
         font-size: 15px;
     }
@@ -77,7 +77,7 @@ export const HomeInfo = styled.h4`
     font-size: 35px;
     color: rgb(1, 183, 207);
     margin-bottom: 20px;
-    @media screen and (min-width:300px){
+    @media screen and (min-width:279px){
         border :0px solid red;
         font-size: 14px;
     }
@@ -100,7 +100,7 @@ export const HomeDesc = styled.p`
     line-height: 1.5;
     color:rgb(41, 41, 41);
     margin-bottom: 20px;
-    @media screen and (min-width:300px){
+    @media screen and (min-width:279px){
         border :0px solid red;
         font-size: 12px;
     }
@@ -140,7 +140,7 @@ export const HomeBtn = styled.button`
         background: #fff;
         color : rgb(1, 183, 207);
     }
-    @media screen and (min-width:300px){
+    @media screen and (min-width:279px){
         border :0px solid red;
         font-size: 12px;
         width: 110px;

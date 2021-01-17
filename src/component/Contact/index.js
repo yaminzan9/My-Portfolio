@@ -21,7 +21,7 @@ function sendEmail(e) {
 function Contact () {
     return (
         <Div id="contact" >
-        <Cover>
+        
         <React.Fragment>
         <ContactSection className="container" >
             <ContactImage>
@@ -52,7 +52,7 @@ function Contact () {
                 
         </ContactSection>
         </React.Fragment>
-        </Cover>
+        
         </Div>
     )
 }

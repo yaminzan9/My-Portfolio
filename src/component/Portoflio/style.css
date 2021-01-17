@@ -1,76 +1,274 @@
-.portfolio {
-    border: 1px solid  white;
-}
-
-.title {
+.cover{
     margin-top: 100px;
-    font-size: 60px;
-    border: solid 0px red;
-    text-align: center;
-    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0);
 }
+.portfolio {
+    border: 0px solid  green;
+    
+    
+} 
 
-.title .span {
-    font-size: 50px;
-    font-weight:normal ;
-}
-.box {
-    overflow: hidden;
-    border: 0px solid yellow;
-}
+@media screen and (min-width:0px){
+    @media screen and (min-width:279px){
+        .title {
+            margin-top: 100px;
+            font-size: 40px;
+            border: solid 0px red;
+            text-align: center;
+            font-weight: bold;
+        }
+      
+        .title .span {
+            font-size: 40px;
+            font-weight:normal ;
+        }
 
-.box div {
-    width: 45%;
-    float: left;
-    font-size: 0;
-    position: relative;
-    border: 0px solid black;
-    margin: 20px 20px;
-}
+        .box div {
+            width: 90%;
+            float: left;
+            font-size: 0;
+            position: relative;
+            border: 0px solid black;
+            margin: 20px 20px;
+        }
+        
+        .images {
+            width: 100%;
+            border: 0px solid red;
+            padding: 10px 0px;
+            transition: padding .9s;
+        }
+        .box div .overlay {
+            border:0px solid yellow ;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            bottom: 0;
+            background: rgba(1, 183, 207, 0);
+            font-size: 15px;
+            transition: opacity 0.5s;
+            opacity: 1;
+        }
 
-.images {
-    border: 0px solid red;
-    padding: 10px 0px;
-    transition: padding .9s;
-}
+        .box div .overlay span{
+            position: absolute;
+            top: 100%;
+            left: 40%;
+            border-radius: 10px;
+            background: rgb(1, 183, 207);
+            color: white;
+            font-size: 15px;
+            display: block;
+            padding: 10px 20px;
+            opacity:0;
+            transition: top 0.9s , opacity 0.9s;
+            cursor: pointer;
+            border: 0px solid #eb5424;
+        }
+    }
+    @media screen and (min-width:600px){
+        .title {
+            margin-top: 100px;
+            font-size:45px;
+            border: solid 0px red;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .title .span {
+            font-size: 45px;
+            font-weight:normal ;
+        }
 
-.box div .overlay {
-    border: 0px solid red;
-    position: absolute;
-    width: 200%;
-    height: 50%;
-    margin: 20px;
-    border-radius: 20px;
-    bottom: 0;
-    background: rgba(1, 183, 207, 0);
-    font-size: 15px;
-    transition: opacity 0.5s;
-    opacity: 0.2;
-}
+        .box div {
+            width: 90%;
+            float: left;
+            font-size: 0;
+            position: relative;
+            border: 0px solid black;
+            margin: 20px 20px;
+        }
+        
+        .images {
+            width: 100%;
+            border: 0px solid red;
+            padding: 10px 0px;
+            transition: padding .9s;
+        }
 
-.box div .overlay span{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    border-radius: 10px;
-    transform: translate(-50%,-50%);
-    background: rgb(1, 183, 207);
-    color: white;
-    font-size: 20px;
-    display: block;
-    padding: 10px 20px;
-    opacity: 0;
-    transition: top 0.9s , opacity 0.9s;
-    cursor: pointer;
-    border: 0px solid #eb5424;
-}
+        .box div .overlay {
+            border:0px solid yellow ;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            bottom: 0;
+            background: rgba(1, 183, 207, 0);
+            font-size: 15px;
+            transition: opacity 0.5s;
+            opacity: 1;
+        }
+
+        .box div .overlay span{
+            position: absolute;
+            top: 100%;
+            left: 40%;
+            border-radius: 10px;
+            background: rgb(1, 183, 207);
+            color: white;
+            font-size: 15px;
+            display: block;
+            padding: 10px 20px;
+            opacity: 0;
+            transition: top 0.9s , opacity 0.9s;
+            cursor: pointer;
+            border: 0px solid #eb5424;
+        }
+       
+    }
+    @media screen and (min-width:800px){
+        .title {
+            margin-top: 100px;
+            font-size: 50px;
+            border: solid 0px red;
+            text-align: center;
+            font-weight: bold;
+        }
+            
+        .title .span {
+            font-size:50px;
+            font-weight:normal ;
+        }
+
+        .box div {
+            
+            width: 45%;
+            float: left;
+            font-size: 0;
+            position: relative;
+            border: 0px solid black;
+            margin: 10px 10px;
+        }
+        
+        .images {
+            width: 100%;
+            border: 0px solid red;
+            padding: 10px 0px;
+            transition: padding .9s;
+        }
+
+        .box div .overlay {
+            border:0px solid yellow ;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            bottom: 0;
+            background: rgba(1, 183, 207, 0);
+            font-size: 15px;
+            transition: opacity 0.5s;
+            opacity: 1;
+        }
+
+        .box div .overlay span{
+            position: absolute;
+            top: 100%;
+            left: 35%;
+            border-radius: 10px;
+            background: rgb(1, 183, 207);
+            color: white;
+            font-size: 15px;
+            display: block;
+            padding: 10px 20px;
+            opacity: 0;
+            transition: top 0.9s , opacity 0.9s;
+            cursor: pointer;
+            border: 0px solid #eb5424;
+        }
+        
+    }
+    @media screen and (min-width:1100px){
+        .title {
+            margin-top: 100px;
+            font-size: 60px;
+            border: solid 0px red;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .title .span {
+            font-size: 60px;
+            font-weight:normal ;
+        }
+       
+         
+        .box div {
+            width: 45%;
+            float: left;
+            font-size: 0;
+            position: relative;
+            border: 0px solid black;
+            margin: 20px 20px;
+        }
+        
+        .images {
+            width:100%;
+            border: 0px solid red;
+            padding: 20px 0px;
+            transition: padding .9s;
+        }
+
+        
+        .box div .overlay {
+            border:0px solid yellow ;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            bottom: 0;
+            background: rgba(1, 183, 207, 0);
+            font-size: 15px;
+            transition: opacity 0.5s;
+            opacity: 1;
+        }
+
+        .box div .overlay span{
+            position: absolute;
+            top: 100%;
+            left: 40%;
+            border-radius: 10px;
+            
+            background: rgb(1, 183, 207);
+            color: white;
+            font-size: 20px;
+            display: block;
+            padding: 10px 20px;
+            opacity: 0;
+            transition: top 0.9s , opacity 0.9s;
+            cursor: pointer;
+            border: 0px solid #eb5424;
+        }
+
+    }
+    }
+
+    .box {
+        overflow: hidden;
+        border: 0px solid yellow;
+    }
+
+
+
+
+
 
 .box div:hover .overlay  {
     opacity: 1;
 }
 
 .box div:hover .overlay span {
-    top: 25%;
+    top: 50%;
     opacity: 1;
 }
 

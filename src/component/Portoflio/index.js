@@ -14,20 +14,21 @@ function Portoflio () {
 
     const PortfolioImages = Data.portfolio.map( (imageItem) => {
         return (
-            <div className="box" >
+            
                 <div key={imageItem.id}>
                 <img className="images" src={imageItem.image} />
                 <p className="overlay" >
                     <span>Show Web</span>
                 </p>
                 </div>
-            </div>
+            
         )
     } )
 
     return (
-        <div className="portfolio" id="Portfolio" >
-        <div className='container'>
+        <div className="cover" id="Portfolio" >
+        <div className="portfolio"  >  
+        <div className='container'> 
             
             <h1 className='title' ><span className="span" >My</span> Portfolio</h1>
             
@@ -38,6 +39,7 @@ function Portoflio () {
             </div>
             
         
+        </div>
         </div>
         </div>
     )

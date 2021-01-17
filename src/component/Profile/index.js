@@ -39,7 +39,7 @@ function Profile () {
 
 
     return (
-        <div id="Profile" >
+        <div >
         <Profile_skills>
             <div  className="container">
                 <Profile_skills_profile>
@@ -66,7 +66,7 @@ function Profile () {
                             yaminzan@outlook.com
                         </Profile_item>
                         <Profile_item>
-                        <GoMarkGithub></GoMarkGithub>
+                        <GoMarkGithub></GoMarkGithub> 
                             <Span>GitHub</Span>
                             <Span_web>https://github.com/yaminzan9</Span_web>
                         </Profile_item>

@@ -13,13 +13,13 @@ import Data from '../../data.json';
 function Index() {
     return (
         <div>
-            
+           
             <Home/>
             <Logo_Header/>
             <Work/>
             <Portoflio/>
-            <Profile/>
             <About/>
+            <Profile/>
             <Contact/>
             
         </div>
