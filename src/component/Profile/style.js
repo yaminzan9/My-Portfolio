@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+
+export const Paragraf =styled.p`
+    font-weight: 600;
+    color:black;
+`
 export const ProfileTitle =styled.div`
     font-size: 60px;
     text-align: center;

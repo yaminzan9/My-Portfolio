@@ -11,7 +11,7 @@
             "id" : 2,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-3%20(1).jpg?raw=true",
             "title": "Quality Assurance",
-            "body": "I use a selenium automation tool helping with my experian to check up the functionality and responsive of the  website ."
+            "body": "I use my experian to check up the functionality and responsive of the website ."
         },
         {
             "id" : 3,
@@ -27,26 +27,26 @@
         {
             "id":1,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/alasalah.jpg?raw=true",
-            "button": "reciptcom",
+            "button": "View Website Online",
             "link": "https://yaminzan9.github.io/Receiptcom/reciptcom.html"
         },
         {
             "id":2,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/recptcome.jpeg?raw=true",
-            "button": "al asalah",
+            "button": "View Website Online",
             "link": "https://www.alasaleh.com/"
         },
         {
             "id":3,
 
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/myport9.jpg?raw=true",
-            "button": "movis",
+            "button": "View Website Online",
             "link": "https://github.com/yaminzan9/My-Portfolio.io/tree/master/src"
         },
         {
             "id":4,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/myport10.jpg?raw=true",
-            "button": "portofolio",
+            "button": "View Website Online",
             "link": "https://github.com/yaminzan9/My-Portfolio.io/tree/master/src"
         }
     ] ,
