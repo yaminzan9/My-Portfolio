@@ -49,7 +49,7 @@ function Profile () {
                     <Profile_list>
                    
                         <Profile_item>
-                        <Paragraf> Damascus University/Damascus,</Paragraf>
+                        <Paragraf> Diploma in business and economy  2011 - 2013 </Paragraf>
                         <Paragraf> self learning through online courses from lessons of a different universities  </Paragraf>
                         </Profile_item>
 

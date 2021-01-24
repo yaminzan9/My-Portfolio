@@ -35,19 +35,6 @@
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/recptcome.jpeg?raw=true",
             "button": "View Website Online",
             "link": "https://www.alasaleh.com/"
-        },
-        {
-            "id":3,
-
-            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/myport9.jpg?raw=true",
-            "button": "View Website Online",
-            "link": "https://github.com/yaminzan9/My-Portfolio.io/tree/master/src"
-        },
-        {
-            "id":4,
-            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/myport10.jpg?raw=true",
-            "button": "View Website Online",
-            "link": "https://github.com/yaminzan9/My-Portfolio.io/tree/master/src"
         }
     ] ,
     "social" : [
