@@ -26,25 +26,26 @@
     "portfolio" : [
         {
             "id":1,
-            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/WhatsApp%20Image%202021-01-24%20at%2012.27.48%20PM.jpeg?raw=true",
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/alasalah.jpg?raw=true",
             "button": "reciptcom",
             "link": "https://yaminzan9.github.io/Receiptcom/reciptcom.html"
         },
         {
             "id":2,
-            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/WhatsApp%20Image%202021-01-24%20at%2012.41.00%20PM.jpeg?raw=true",
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/recptcome.jpeg?raw=true",
             "button": "al asalah",
             "link": "https://www.alasaleh.com/"
         },
         {
             "id":3,
-            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/myport3.jpg?raw=true",
+
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/myport9.jpg?raw=true",
             "button": "movis",
             "link": "https://github.com/yaminzan9/My-Portfolio.io/tree/master/src"
         },
         {
             "id":4,
-            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/myport9.jpg?raw=true",
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/myport10.jpg?raw=true",
             "button": "portofolio",
             "link": "https://github.com/yaminzan9/My-Portfolio.io/tree/master/src"
         }
