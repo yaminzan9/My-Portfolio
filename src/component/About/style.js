@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Div = styled.div`
 border:1px solid  rgba(255, 255, 255, 0);
-padding-top: 120px;
+padding-top: 70px;
 `
 export const Aboutsection = styled.div`
 border:solid 0px red;

@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const ProfileTitle =styled.div`
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase; 
+`
 export const Profile_skills = styled.div`
     padding: 50px 0;
     overflow: hidden;
@@ -38,6 +43,7 @@ border :solid 0px red;
 
 export const Profile_item = styled.li`
 margin-bottom: 8px;
+list-style: none;
 `
 
 export const Span = styled.span`
@@ -200,4 +206,11 @@ export const Scour1 = styled.span`
     display: inline-block;
     margin: 5px;
     
+`
+
+export const HopImg =styled.img`
+width:100px;
+border: solid 0px red;
+padding:10px;
+margin:10px;
 `

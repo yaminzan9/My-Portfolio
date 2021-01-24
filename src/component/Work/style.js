@@ -5,12 +5,11 @@ export const Mg = styled.div`
 border :1px solid #0000;
 `
 export const WorkSection = styled.div`
-    height: auto;
-    padding: 50px 0;
+    padding-top:20px;
     overflow: hidden;
     background: #fff;
-    margin-top:100px;
-  
+    margin-top:70px;
+    border:solid 0px red;
 `
 
 export const WorkTitle = styled.h2`
@@ -43,34 +42,33 @@ export const WorkPart = styled.div`
     width: 30%;
     float: left;
     height: auto;
-    padding: 100px 0;
     border: 0px solid #888;
     box-sizing: border-box;
     text-align: center;
     @media screen and (min-width:279px){
         border :0px solid red;
         width: 33%;
-        padding: 50px 0;
+        padding-top: 30px;
         margin-left: ${props => props.first === 1 ? '0' : '.5%'}
     }
     @media screen and (min-width:600px){
         border :0px solid black;
         width: 33%;
-        padding: 70px 0;
+        padding-top: 30px;
         margin-left: ${props => props.first === 1 ? '0' : '.5%'}
         
     }
     @media screen and (min-width:800px){
         border :0px solid yellow;
         width: 33%;
-        padding: 80px 0;
+        padding-top: 30px;
         margin-left: ${props => props.first === 1 ? '0' : '.5%'}
         
     }
     @media screen and (min-width:1100px){
         border :0px solid green;
         width: 30%;
-        padding: 120px 0;
+        padding-top: 30px;
         margin-left: ${props => props.first === 1 ? '0' : '5%'}
         
     }
@@ -84,7 +82,8 @@ export const Imegs = styled.img`
     border:solid 0px red;
     margin-bottom: 20px;
     width:70px;
-    @media screen and (min-width279px){
+
+    @media screen and (min-width:279px){
         border :0px solid red;
         width:40px;
     }

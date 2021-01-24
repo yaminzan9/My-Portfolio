@@ -13,7 +13,7 @@ function Home () {
                     I am a professional <Span>Front-End Developer</Span> and Software Engineer creating modern and resposive designs to Web in the best features.
                      Let us work together. Thanks .
                 </HomeDesc>
-                <HomeBtn>WhatsApp</HomeBtn>
+                <a href="https://api.whatsapp.com/send?phone=60189610861&fbclid=IwAR00GIld1iDH_0g5FvJfF38p1SWfrbjlJEyl7tJgOUtCNVedGJq0GgU9Y7Y" ><HomeBtn>WhatsApp</HomeBtn></a>
             </HomeInformation>
         </div>
     </HomeSection>

@@ -135,7 +135,7 @@ export const HomeBtn = styled.button`
     padding: 15px;
     cursor: pointer;
     font-weight: 650;
-
+    
     &:hover {
         background: #fff;
         color : rgb(1, 183, 207);

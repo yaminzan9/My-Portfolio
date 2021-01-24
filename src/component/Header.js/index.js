@@ -37,26 +37,26 @@ class Logo_Header extends Component {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
-                        <a href="#Home">Home <span className="sr-only">(current)</span></a>
+                        <a className="items" href="#Home">Home <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
-                        <a href="#Work">Work</a>
+                        <a className="items" href="#Work">Work</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#Portfolio">Portfolio</a>
+                        <a className="items" href="#Portfolio">Portfolio</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#Profile">Profile</a>
+                        <a className="items" href="#Profile">Profile</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#contact">Contact</a>
+                        <a className="items" href="#contact">Contact</a>
                     </li>
                     </ul>
                     <div className="midea">
                     <ul>
-                    <li><i><FaFacebook></FaFacebook></i></li>
-                    <li><i><AiFillLinkedin></AiFillLinkedin></i></li>
-                    <li><i><AiFillGithub></AiFillGithub></i></li>
+                    <li><a className="icon" href="https://www.facebook.com/yamin.dev.73/?viewas=" ><i><FaFacebook className="icon-content"></FaFacebook></i></a></li>
+                    <li><a className="icon" href="https://www.linkedin.com/in/yamin-zanoub/" ><i><AiFillLinkedin className="icon-content" ></AiFillLinkedin></i></a></li>
+                    <li><a className="icon" href="https://github.com/yaminzan9" ><i><AiFillGithub className="icon-content" ></AiFillGithub></i></a></li>
                     </ul>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 .cover{
-    margin-top: 100px;
+
     border: 1px solid rgba(255, 255, 255, 0);
 }
 .portfolio {
@@ -11,7 +11,7 @@
 @media screen and (min-width:0px){
     @media screen and (min-width:279px){
         .title {
-            margin-top: 100px;
+            
             font-size: 40px;
             border: solid 0px red;
             text-align: center;
@@ -54,7 +54,7 @@
         .box div .overlay span{
             position: absolute;
             top: 100%;
-            left: 40%;
+            left: 35%;
             border-radius: 10px;
             background: rgb(1, 183, 207);
             color: white;
@@ -69,7 +69,7 @@
     }
     @media screen and (min-width:600px){
         .title {
-            margin-top: 100px;
+           
             font-size:45px;
             border: solid 0px red;
             text-align: center;
@@ -113,7 +113,7 @@
         .box div .overlay span{
             position: absolute;
             top: 100%;
-            left: 40%;
+            left: 35%;
             border-radius: 10px;
             background: rgb(1, 183, 207);
             color: white;
@@ -129,7 +129,7 @@
     }
     @media screen and (min-width:800px){
         .title {
-            margin-top: 100px;
+           
             font-size: 50px;
             border: solid 0px red;
             text-align: center;
@@ -190,7 +190,7 @@
     }
     @media screen and (min-width:1100px){
         .title {
-            margin-top: 100px;
+            margin-top: 80px;
             font-size: 60px;
             border: solid 0px red;
             text-align: center;
@@ -235,8 +235,8 @@
 
         .box div .overlay span{
             position: absolute;
-            top: 100%;
-            left: 40%;
+            top: 75%;
+            left: 35%;
             border-radius: 10px;
             
             background: rgb(1, 183, 207);
@@ -245,7 +245,7 @@
             display: block;
             padding: 10px 20px;
             opacity: 0;
-            transition: top 0.9s , opacity 0.9s;
+            transition: top 0.7s , opacity 0.9s;
             cursor: pointer;
             border: 0px solid #eb5424;
         }

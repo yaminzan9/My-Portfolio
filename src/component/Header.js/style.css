@@ -14,12 +14,38 @@
     border: 0px solid yellow;
     padding: 0px;
 }
-.collapse a {
+.collapse .items {
+    
     color: black;
+    transition: color .4s;
 }
-.collapse a:hover {
+.collapse .items:hover {
     text-decoration: none;
     color: white;
+
+}
+.midea {
+    
+    padding: 0px;
+    border: 0px solid yellow;
+}
+.collapse .icon {
+    color: rgb(1, 183, 207);
+    transition: color .4s;
+    
+}
+.collapse .icon i .icon-content{
+    position: relative;
+    padding-bottom: 5px;
+    width: 30px;
+    border: 0px solid red;
+    margin-bottom: 10px;
+    margin-left: -15px;
+   
+}
+.collapse .icon:hover {
+    color: rgb(2, 110, 124);
+    
 }
 .navbar-nav {
     border: 0px solid red;
@@ -28,8 +54,8 @@
 .navbar.navbar-expand-lg.navbar-light {
     background-color: white;
 }
-.dropdown-item.he:hover {
-    background-color:   rgb(1, 183, 207);
+.collapse .items:hover .dropdown-item.he{
+    background-color:  rgb(1, 183, 207);
 }
 .navbar-brand img {
     width: 150px;
@@ -37,29 +63,17 @@
     border-radius: 10px;
 }
 
-.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-links.color {
-    color: white;
-    display: block;
-    font-size: 20px;
-    margin: 10px;
-    text-decoration: none;
-    border: 0px solid red;
-    transition:color 0.3s ;
-    
-}
-
 .nav-item {
-    margin: 7px 10px;
+    border:0px solid red;
+    margin: 20px 10px;
     padding: 2px 5px;
+    border-radius: 3px;
     transition: background-color 0.3s;
 }
 .nav-item:hover {
-    background-color: rgba(1, 183, 207, 0.486);
+    background-color:  rgb(1, 183, 207);
 }
-.nav-item:hover .nav-links.color {
-    color: black;
-}
+
 
 .form-inline {
     margin: 10px;

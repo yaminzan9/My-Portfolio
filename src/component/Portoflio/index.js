@@ -18,7 +18,7 @@ function Portoflio () {
                 <div key={imageItem.id}>
                 <img className="images" src={imageItem.image} />
                 <p className="overlay" >
-                    <span>Show Web</span>
+                   <a href={imageItem.link} ><span>{imageItem.button}</span></a>
                 </p>
                 </div>
             

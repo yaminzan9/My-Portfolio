@@ -15,6 +15,7 @@
     box-shadow: rgb(207, 207, 207);
     background-color: rgba(255, 255, 255, 0);
     padding-top: 100px;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width:279px){
@@ -33,3 +34,45 @@
     border :0px solid green;
    
 }
+
+
+
+<Profile_item>
+<Span>Name</Span>
+Yamin Zanoub
+</Profile_item>
+<Profile_item>
+<Span>Birthday</Span>
+06/09/1994
+</Profile_item>
+<Profile_item>
+<Span>Address</Span>
+kuala lumpor
+</Profile_item>
+<Profile_item>
+<Span>Phone</Span>
+0060189610861
+</Profile_item>
+<Profile_item>
+<Span>Email</Span>
+yaminzan@outlook.com
+</Profile_item>
+<Profile_item>
+<GoMarkGithub></GoMarkGithub> 
+<Span>GitHub</Span>
+<Span_web>https://github.com/yaminzan9</Span_web>
+</Profile_item>
+<Profile_item>
+<Span>arabic</Span>
+<Div><Scour></Scour><Scour></Scour><Scour></Scour><Scour></Scour><Scour></Scour>
+<Scour></Scour><Scour></Scour><Scour></Scour><Scour></Scour><Scour></Scour>
+</Div>
+<Span>english</Span>
+<Div><Scour></Scour><Scour></Scour><Scour></Scour><Scour></Scour><Scour></Scour>
+<Scour></Scour><Scour></Scour><Scour></Scour><Scour1></Scour1><Scour1></Scour1>
+</Div>
+<Span>malay</Span>
+<Div><Scour></Scour><Scour></Scour><Scour1></Scour1><Scour1></Scour1><Scour1></Scour1>
+<Scour1></Scour1><Scour1></Scour1><Scour1></Scour1><Scour1></Scour1><Scour1></Scour1>
+</Div>
+</Profile_item>

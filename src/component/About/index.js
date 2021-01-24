@@ -13,7 +13,7 @@ function About() {
                     <InfoDir>Front-End Developer</InfoDir>
                     <InfoDesc>
                     I am a professional Front-End Developer and Software Engineer creating modern and resposive designs to Web in the best features.
-                    I am a professional Front-End Developer and Software Engineer creating modern and resposive designs to Web in the best features.
+                    
                     </InfoDesc>
                     <InfoDesc>
                         
