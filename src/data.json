@@ -32,7 +32,7 @@
         },
         {
             "id":2,
-            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/recptcome.jpeg?raw=true",
+            "image": "https://raw.githubusercontent.com/yaminzan9/My-Portfolio.io/master/public/imges-public/recptcome.jpeg",
             "button": "View Website Online",
             "link": "https://www.alasaleh.com/"
         }

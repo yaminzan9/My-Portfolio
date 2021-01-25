@@ -50,7 +50,7 @@ function Profile () {
                    
                         <Profile_item>
                         <Paragraf> Diploma in business and economy  2011 - 2013 </Paragraf>
-                        <Paragraf> self learning through online courses from lessons of a different universities  </Paragraf>
+                        <Paragraf> self paced learning through online courses provided by different universities.  </Paragraf>
                         </Profile_item>
 
                         <Profile_title>Experience</Profile_title>
