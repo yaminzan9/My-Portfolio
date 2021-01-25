@@ -10,8 +10,10 @@ function Home () {
                 <HomeTitle>Yamin zanoub</HomeTitle>
                 <HomeInfo>Front-End Developer</HomeInfo>
                 <HomeDesc>
-                    I am a professional <Span>Front-End Developer</Span> and Software Engineer creating modern and responsive designs to Web in the best features.
-                     Let us work together. Thanks .
+                I'm a professional <Span>Front-End Developer</Span> and software engineer, specialised in creating modern and responsive websites equipped with the best features.
+                Let us work together.
+                Thanks.
+                    
                 </HomeDesc>
                 <a href="https://api.whatsapp.com/send?phone=60189610861&fbclid=IwAR00GIld1iDH_0g5FvJfF38p1SWfrbjlJEyl7tJgOUtCNVedGJq0GgU9Y7Y" ><HomeBtn>WhatsApp</HomeBtn></a>
             </HomeInformation>

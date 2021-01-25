@@ -11,13 +11,13 @@
             "id" : 2,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-3%20(1).jpg?raw=true",
             "title": "Quality Assurance",
-            "body": "I use my experian to check up the functionality and responsive of the website ."
+            "body": "I use my experience to test the functionality and responsiveness of websites"
         },
         {
             "id" : 3,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-1%20(1).jpg?raw=true",
             "title": "API",
-            "body": "I can use API the Connection Tool"
+            "body": "Integrating existing APIs and refactoring existing websites"
         }
         
 

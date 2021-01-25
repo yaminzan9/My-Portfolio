@@ -81,7 +81,7 @@ function Profile () {
                 <Skills> 
                 <Profile_skills_title><Profile_skills_title_span>my </Profile_skills_title_span>skills</Profile_skills_title>
                     <Skills_desc>
-                    I got those experiences through my work with different people and from my mistakes.
+                    Acquiring experience through consistent work with different talented people.
                     </Skills_desc>
                     {ProList}
                 </Skills>
