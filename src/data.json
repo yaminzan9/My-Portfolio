@@ -15,13 +15,13 @@
         },
         {
             "id" : 4,
-            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-3%20(1).jpg?raw=true",
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-4%20(1).jpeg?raw=true",
             "title": "Automated Testing Codeceptjs",
             "body": "automated {UI , API , Get Console Error , ScreenShots } testing using Codeceptjs testing tool"
         },
         {
-            "id" : 6,
-            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-3%20(1).jpg?raw=true",
+            "id" : 5,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-5%20(1).jpeg?raw=true",
             "title": "React Native Development",
             "body": "automated {UI , API , Get Console Error , ScreenShots } testing using Codeceptjs testing tool"
         },
