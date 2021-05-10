@@ -19,7 +19,7 @@ function Work () {
             
             <WorkPart first={worksItem.id} key={worksItem.id} >
                 <Imegs  src={worksItem.image} ></Imegs>
-                <PartTitle>{worksItem.title}</PartTitle>
+                <PartTitle>{worksItem.title}</PartTitle> 
                 <Line/>
                 <PartDesc>
                     {worksItem.body}

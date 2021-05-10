@@ -4,7 +4,7 @@
         {
             "id" : 1,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-2%20(1).jpg?raw=true",
-            "title": "Website",
+            "title": "Website Development",
             "body": "I create websites using React.js Framework "
         },
         {
@@ -14,9 +14,21 @@
             "body": "I use my experience to test the functionality and responsiveness of websites"
         },
         {
+            "id" : 4,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-3%20(1).jpg?raw=true",
+            "title": "Automated Testing Codeceptjs",
+            "body": "automated {UI , API , Get Console Error , ScreenShots } testing using Codeceptjs testing tool"
+        },
+        {
+            "id" : 6,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-3%20(1).jpg?raw=true",
+            "title": "React Native Development",
+            "body": "automated {UI , API , Get Console Error , ScreenShots } testing using Codeceptjs testing tool"
+        },
+        {
             "id" : 3,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-1%20(1).jpg?raw=true",
-            "title": "API",
+            "title": "API Connection",
             "body": "Integrating existing APIs and refactoring existing websites"
         }
         
@@ -80,8 +92,36 @@
         },
         {
             "id": 2,
-            "title" : "Media Query",
+            "title" : "React Native",
             "perc" : "",
+            "parent" : ""
+            
+        },
+        {
+            "id": 1,
+            "title" : "Media Query",
+            "perc" :"",
+            "parent" : ""
+            
+        },
+        {
+            "id": 1,
+            "title" : "Codeceptjs",
+            "perc" :"",
+            "parent" : ""
+            
+        },
+        {
+            "id": 1,
+            "title" : "JEST",
+            "perc" :"",
+            "parent" : ""
+            
+        },
+        {
+            "id": 1,
+            "title" : "HTML",
+            "perc" :"",
             "parent" : ""
             
         },

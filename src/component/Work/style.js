@@ -49,31 +49,31 @@ export const WorkPart = styled.div`
         border :0px solid red;
         width: 33%;
         padding-top: 30px;
-        margin-left: ${props => props.first === 1 ? '0' : '.5%'}
+        margin-left: ${props => props.first === 1 || 4 ? '0' : '.5%'}
     }
     @media screen and (min-width:600px){
         border :0px solid black;
         width: 33%;
         padding-top: 30px;
-        margin-left: ${props => props.first === 1 ? '0' : '.5%'}
+        margin-left: ${props => props.first === 1 || 4 ? '0' : '.5%'}
         
     }
     @media screen and (min-width:800px){
         border :0px solid yellow;
         width: 33%;
         padding-top: 30px;
-        margin-left: ${props => props.first === 1 ? '0' : '.5%'}
+        margin-left: ${props => props.first === 1 || 4 ? '0' : '.5%'}
         
     }
     @media screen and (min-width:1100px){
         border :0px solid green;
         width: 30%;
         padding-top: 30px;
-        margin-left: ${props => props.first === 1 ? '0' : '5%'}
+        margin-left: ${props => props.first === 1 || 4 ? '0' : '5%'}
         
     }
     
-    margin-left: ${props => props.first === 1 ? '0' : '5%'}
+    margin-left: ${props => props.first === 1 || 4 ? '0' : '5%'}
     
     
 `

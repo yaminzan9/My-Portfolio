@@ -6,7 +6,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+     <BrowserRouter>
      <Index/>
      </BrowserRouter>
   );
