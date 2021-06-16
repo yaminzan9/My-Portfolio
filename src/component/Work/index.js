@@ -18,13 +18,17 @@ function Work () {
         return (
             
             <WorkPart first={worksItem.id} key={worksItem.id} >
+                
                 <Imegs  src={worksItem.image} ></Imegs>
+                
                 <PartTitle>{worksItem.title}</PartTitle> 
                 <Line/>
+                <p><Imegs  src={worksItem.Downloade} ></Imegs></p>
                 <PartDesc>
                     {worksItem.body}
-                </PartDesc> 
+                </PartDesc>
             </WorkPart>
+            
             
         )
         

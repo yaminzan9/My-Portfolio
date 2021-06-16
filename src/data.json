@@ -5,32 +5,138 @@
             "id" : 1,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-2%20(1).jpg?raw=true",
             "title": "Website Development",
-            "body": "I create websites using React.js Framework "
+            "body": "I create websites using React.js Framework ",
+            "Downloade": ""
         },
         {
             "id" : 2,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-3%20(1).jpg?raw=true",
             "title": "Quality Assurance",
-            "body": "I use my experience to test the functionality and responsiveness of websites"
-        },
-        {
-            "id" : 4,
-            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-4%20(1).jpeg?raw=true",
-            "title": "Automated Testing Codeceptjs",
-            "body": "automated {UI , API , Get Console Error , ScreenShots } testing using Codeceptjs testing tool"
-        },
-        {
-            "id" : 5,
-            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-5%20(1).jpeg?raw=true",
-            "title": "React Native Development",
-            "body": "automated {UI , API , Get Console Error , ScreenShots } testing using Codeceptjs testing tool"
+            "body": "I use my experience to test the functionality and responsiveness of websites",
+            "Downloade": ""
         },
         {
             "id" : 3,
-            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-1%20(1).jpg?raw=true",
-            "title": "API Connection",
-            "body": "Integrating existing APIs and refactoring existing websites"
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-4%20(1).jpeg?raw=true",
+            "title": "Automated Testing Codeceptjs",
+            "body": "automated {UI , API , Get Console Error , ScreenShots } testing using Codeceptjs testing tool",
+            "Downloade": ""
+        },
+        {
+            "id" : 4,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-5%20(1).jpeg?raw=true",
+            "title": "React Native Development",
+            "body": "automated {UI , API , Get Console Error , ScreenShots } testing using Codeceptjs testing tool",
+            "Downloade": ""
         }
+        
+        
+        
+
+    ],
+    "MyPrograms" : [
+        {
+            "id" : 1,
+            "image": "",
+            "title": "MANGO DB ",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 2,
+            "image": "",
+            "title": "",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 1,
+            "image": "",
+            "title": "",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 1,
+            "image": "",
+            "title": "",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 1,
+            "image": "",
+            "title": "",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 1,
+            "image": "",
+            "title": "",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 1,
+            "image": "",
+            "title": "",
+            "body": "",
+            "Downloade": ""
+        },{
+            "id" : 1,
+            "image": "",
+            "title": "",
+            "body": "",
+            "Downloade": ""
+        },
+
+        {
+            "id" : 1,
+            "image": "",
+            "title": "",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 1,
+            "image": "",
+            "title": "",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 1,
+            "image": "",
+            "title": "",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 1,
+            "image": "",
+            "title": "",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 1,
+            "image": "",
+            "title": "",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 1,
+            "image": "",
+            "title": "",
+            "body": "",
+            "Downloade": ""
+        }
+        
+        
+        
+        
         
 
     ],
@@ -72,126 +178,151 @@
     "profil" : [
         {
             "id": 1,
-            "title" : "HTML",
-            "perc" :"",
+            "title" : "Flutter",
+            "pic" :"",
             "parent" : ""
+            
+            
+        },
+        {
+            "id": 1,
+            "title" : "Dart",
+            "pic" :"",
+            "parent" : ""
+            
+            
+        },
+        {
+            "id": 1,
+            "title" : "ReactNative",
+            "pic" :"",
+            "parent" : ""
+            
+            
+        },
+        {
+            "id": 1,
+            "title" : "HTML",
+            "pic" :"",
+            "parent" : ""
+            
             
         },
         {
             "id": 2,
             "title" : "CSS",
-            "perc" : "",
+            "pic" : "",
             "parent" : ""
             
         },
         {
             "id": 3,
             "title" : "React.js",
-            "perc" : "",
+            "pic" : "",
             "parent" : ""
         },
         {
             "id": 2,
             "title" : "React Native",
-            "perc" : "",
+            "pic" : "",
             "parent" : ""
             
         },
         {
             "id": 1,
             "title" : "Media Query",
-            "perc" :"",
+            "pic" :"",
             "parent" : ""
             
         },
         {
             "id": 1,
             "title" : "Codeceptjs",
-            "perc" :"",
+            "pic" :"",
             "parent" : ""
             
         },
         {
             "id": 1,
             "title" : "JEST",
-            "perc" :"",
+            "pic" :"",
             "parent" : ""
             
         },
         {
             "id": 1,
             "title" : "HTML",
-            "perc" :"",
+            "pic" :"",
             "parent" : ""
             
         },
         {
             "id": 2,
             "title" : "GitHub",
-            "perc" : "",
+            "pic" : "",
             "parent" : ""
             
         },
         {
             "id": 2,
             "title" : "BootStrap",
-            "perc" : "",
+            "pic" : "",
             "parent" : ""
             
         },
         {
             "id": 2,
             "title" : "CSS3",
-            "perc" : "",
+            "pic" : "",
             "parent" : ""
             
         },
         {
             "id": 2,
             "title" : "HTML5",
-            "perc" : "",
+            "pic" : "",
             "parent" : ""
             
         },
         {
             "id": 2,
             "title" : "JavaScript", 
-            "perc" : "",
+            "pic" : "",
             "parent" : ""
             
         },
         {
             "id": 2,
             "title" : "Jquery",
-            "perc" : "",
+            "pic" : "",
             "parent" : ""
             
         },
         {
             "id": 2,
             "title" : "NodeJs",
-            "perc" : "",
+            "pic" : "",
             "parent" : ""
             
         },
         {
             "id": 2,
             "title" : "PostMan",
-            "perc" : "",
+            "pic" : "",
             "parent" : ""
             
         },
         {
             "id": 2,
             "title" : "MongoDB",
-            "perc" : "",
+            "pic" : "",
             "parent" : ""
             
         },
         {
             "id": 2,
             "title" : "Express js",
-            "perc" : "",
+            "pic" : "",
             "parent" : ""
             
         }

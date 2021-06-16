@@ -9,6 +9,8 @@ import SocialMedia from './../SocialMedia';
 import Work from './../Work';
 import Logo_Header from './../Header.js';
 import Data from '../../data.json';
+import MyPrograms from '../MyPrograms';
+
 
 function Index() {
     return (
@@ -17,6 +19,7 @@ function Index() {
             <Home/>
             <Logo_Header/>
             <Work/>
+            <MyPrograms/>
             <Portoflio/>
             <About/>
             <Profile/>

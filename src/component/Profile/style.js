@@ -44,6 +44,7 @@ list-style: none;
 margin-top: 40px;
 padding: 0;
 border :solid 0px red;
+
 `
 
 export const Profile_item = styled.li`
@@ -211,6 +212,29 @@ export const Scour1 = styled.span`
     display: inline-block;
     margin: 5px;
     
+`
+
+export const SkillsItem =styled.li`
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+`
+
+export const Proskillstitle =styled.span`
+border: solid 0px red;
+display: inline;
+
+`
+
+
+export const SkillsImg =styled.img`
+width:50px;
+border: solid 0px red;
+margin-left: 10%;
+
+
 `
 
 export const HopImg =styled.img`

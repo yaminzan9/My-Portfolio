@@ -3,13 +3,18 @@ import axios from 'axios';
 import {Profile_skills , Profile_skills_profile , Profile_list , Profile_item , Span , Span_web , Skills , Skills_desc ,
     Skills_bar , Skills_bar_title , Skills_bar_perc , Skills_bar_parent , Skills_bar_parent_span , Skills_bar_parent_sp1 ,
     Skills_bar_parent_sp2 , Skills_bar_parent_sp3 , Profile_title , Profile_skills_title , Profile_title_span ,
-    Profile_skills_title_span , PorfilePart , Scour ,Div , Scour1 ,ProfileTitle ,HopImg , Paragraf} from './style';
+    Profile_skills_title_span , PorfilePart , Scour ,Div , Scour1 ,ProfileTitle ,HopImg , Paragraf , Proskillstitle , SkillsImg , SkillsItem , ImagWrap } from './style';
 import { GoMarkGithub } from "react-icons/go";
 import {GiSkills} from "react-icons/gi";
 import Data from '../../data.json';
 import Photo from "../imges-import/icons-0.png";
 import Photo1 from "../imges-import/icons-01.png";
 import Photo2 from "../imges-import/icons-02.png";
+import Photo3 from "../imges-import/html5.png";
+// import Photo2 from "../imges-import/icons-02.png";
+// import Photo2 from "../imges-import/icons-02.png";
+// import Photo2 from "../imges-import/icons-02.png";
+
 
 function Profile () {
 
@@ -21,17 +26,13 @@ function Profile () {
 
     const ProList = Data.profil.map( (proItem) => {
         return (
+            
             <PorfilePart  key={proItem.id} >
-                <pro_skills_title>{proItem.title}</pro_skills_title>
-                <Skills_bar_perc>{proItem.perc}</Skills_bar_perc>
-                <Skills_bar_parent>
-                    <Skills_bar_parent_span>
-                        <Skills_bar_parent_sp1 secound={proItem.id}>
-                        {proItem.parent}
-                        </Skills_bar_parent_sp1>
-                    </Skills_bar_parent_span>
-                </Skills_bar_parent>
+                
+                <Proskillstitle>{proItem.title}</Proskillstitle>
+                
             </PorfilePart>
+            
         )
     })
 

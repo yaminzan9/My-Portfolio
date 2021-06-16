@@ -1,20 +1,49 @@
-import React from 'react';
-import {FooterSeaction , FooterDesc , List , Li , Icon} from './style.js';
-import { FaFacebook } from 'react-icons/fa';
-import { AiFillLinkedin , AiFillGithub } from 'react-icons/ai';
+import React, {useState , useEffect} from 'react';
+import {WorkSection , WorkTitle , WorkPart , Imegs , PartTitle , Line , Span , PartDesc ,Mg} from './style.js';
+import axios from 'axios';
+import Data from '../../data.json';
 
 
-function Footer () {
-    return (
-        <FooterSeaction>
-            <List>
-            <Li><Icon><FaFacebook></FaFacebook></Icon></Li>
-            <Li><Icon><AiFillLinkedin></AiFillLinkedin></Icon></Li>
-            <Li><Icon><AiFillGithub></AiFillGithub></Icon></Li>
-            </List>
-            <FooterDesc> yaminzan &copy; 2018 profile </FooterDesc>
-        </FooterSeaction>
-    )
+function MyPrograms () {
+
+    
+    const [ MyPrograms , setMyPrograms] = useState([])
+    
+    useEffect ( () => {
+        axios.get('./data.json').then( res => { setMyPrograms(res.data.MyPrograms)})
+    }, [] )    
+    
+    const MyProgramslist = Data.MyPrograms.map( (MyProgramsItem) => {
+        console.log(MyProgramsItem.image);
+        return (
+            
+            <WorkPart first={MyProgramsItem.id} key={MyProgramsItem.id} >
+                
+                <Imegs  src={MyProgramsItem.image} >yamin</Imegs>
+                
+                <PartTitle>{MyProgramsItem.title}</PartTitle> 
+                <Line/>
+                <p><Imegs  src={MyProgramsItem.Downloade} ></Imegs></p>
+                <PartDesc>
+                    {MyProgramsItem.body}
+                </PartDesc> 
+            </WorkPart>
+            
+            
+        )
+        
+    })
+        
+        return (
+            <Mg id="Work" >
+            <WorkSection>
+            <div  className="container">
+                <WorkTitle><Span>My</Span> Work</WorkTitle>
+                {MyProgramslist}
+            </div>
+        </WorkSection>
+        </Mg>
+        )
 }
 
-export default Footer 
+export default MyPrograms;

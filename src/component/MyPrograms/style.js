@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const Mg = styled.div`
 
-border :1px solid #0000;
+border :1px solid #0000; 
 `
 export const WorkSection = styled.div`
     padding-top:20px;
     overflow: hidden;
     background: white;
     margin-top:70px;
-    border:solid 0px red;
+    border:solid 1px red;
 `
 
 export const WorkTitle = styled.h2`
@@ -42,7 +42,7 @@ export const WorkPart = styled.div`
     width: 30%;
     float: left;
     height: auto;
-    border: 0px solid red;
+    border: 1px solid red;
     box-sizing: border-box;
     text-align: center;
     @media screen and (min-width:279px){
