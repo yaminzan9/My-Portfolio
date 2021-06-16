@@ -4,15 +4,16 @@ export const Mg = styled.div`
 
 border :1px solid #0000; 
 `
-export const WorkSection = styled.div`
+export const MyProgramsSection = styled.div`
     padding-top:20px;
     overflow: hidden;
     background: white;
     margin-top:70px;
-    border:solid 1px red;
+    border:solid 0px red;
+    box-shadow: 1px 5px 5px grey;
 `
 
-export const WorkTitle = styled.h2`
+export const MyProgramsTitle = styled.h2`
     font-size: 60px;
     text-align: center;
     text-transform: uppercase; 
@@ -31,6 +32,7 @@ export const WorkTitle = styled.h2`
     @media screen and (min-width:1100px){
         border :0px solid green;
         font-size: 60px;
+        
     }
 `
 
@@ -38,42 +40,44 @@ export const Span = styled.span`
     font-weight: normal
 `
 
-export const WorkPart = styled.div`
+export const MyProgramsPart = styled.div`
     width: 30%;
     float: left;
     height: auto;
-    border: 1px solid red;
+    border: 0px solid red;
     box-sizing: border-box;
     text-align: center;
     @media screen and (min-width:279px){
-        border :1px solid red;
-        width: 90%;
-        padding-top: 30px;
-        margin-left: 5%;
+        border :0px solid green;
+        width: 20%;
+        height: 100px;
+        padding-top: 20px;
+        margin: 20px;
     }
     @media screen and (min-width:600px){
-        border :1px solid black;
-        width: 40%;
-        height: 250px;
-        padding-top: 30px;
-        margin: 10px 5% 0 5%; 
+        border :0px solid green;
+        width: 20%;
+        height: 100px;
+        padding-top: 20px;
+        margin: 20px;
         
     }
     @media screen and (min-width:800px){
-        border :1px solid yellow;
-        width: 30%;
-        padding-top: 30px;
-        height: 300px;
-        margin: 10px ;
+        border :0px solid green;
+        width: 20%;
+        height: 100px;
+        padding-top: 25px;
+        margin: 20px;
         
     }
     @media screen and (min-width:1100px){
-        border :0px solid green;
-        width: 45%;
-        height: 300px;
-        padding-top: 30px;
-        margin: 20px;
-        
+        border :1px solid rgb(207, 207, 207);
+        width: 30%;
+        height: 150px;
+        padding-top: 25px;
+        margin: 30px 15px;
+        box-shadow: 1px 1px 10px rgb(207, 207, 207);
+        border-radius: 20px;
     }
     
    
@@ -85,7 +89,7 @@ export const Imegs = styled.img`
     border:solid 0px red;
     margin-bottom: 20px;
     width:70px;
-
+    height:100;
     @media screen and (min-width:279px){
         border :0px solid red;
         width:40px;

@@ -5,28 +5,28 @@
             "id" : 1,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-2%20(1).jpg?raw=true",
             "title": "Website Development",
-            "body": "I create websites using React.js Framework ",
+            "body": " Creating responsive website following newest FEATURES in shortest way possible with best practice ",
             "Downloade": ""
         },
         {
             "id" : 2,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-3%20(1).jpg?raw=true",
             "title": "Quality Assurance",
-            "body": "I use my experience to test the functionality and responsiveness of websites",
+            "body": "Using My experience to test the functionality and responsiveness of websites My main job is to following the Errors and catch them",
             "Downloade": ""
         },
         {
             "id" : 3,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-4%20(1).jpeg?raw=true",
-            "title": "Automated Testing Codeceptjs",
-            "body": "automated {UI , API , Get Console Error , ScreenShots } testing using Codeceptjs testing tool",
+            "title": "Automated Testing ",
+            "body": "Automated Testing thet testing {UI , API , Get Console Error , ScreenShots } to get professional results",
             "Downloade": ""
         },
         {
             "id" : 4,
             "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/public/imges-public/Untitled-5%20(1).jpeg?raw=true",
-            "title": "React Native Development",
-            "body": "automated {UI , API , Get Console Error , ScreenShots } testing using Codeceptjs testing tool",
+            "title": "Mobile App",
+            "body": "building creative mobile Apps in the simple way for clients (easy to use) , in the smart coding way",
             "Downloade": ""
         }
         
@@ -37,99 +37,141 @@
     "MyPrograms" : [
         {
             "id" : 1,
-            "image": "",
-            "title": "MANGO DB ",
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/flutter.png?raw=true",
+            "title": " Flutter",
             "body": "",
             "Downloade": ""
         },
         {
             "id" : 2,
-            "image": "",
-            "title": "",
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/dart.png?raw=true",
+            "title": "Dart",
             "body": "",
             "Downloade": ""
         },
         {
-            "id" : 1,
-            "image": "",
-            "title": "",
+            "id" : 3,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/reactnative.png?raw=true",
+            "title": "ReactNative",
             "body": "",
             "Downloade": ""
         },
         {
-            "id" : 1,
-            "image": "",
-            "title": "",
+            "id" : 4,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/html.png?raw=true",
+            "title": "HTML",
             "body": "",
             "Downloade": ""
         },
         {
-            "id" : 1,
-            "image": "",
-            "title": "",
+            "id" : 5,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/html5.png?raw=true",
+            "title": "HTML5",
             "body": "",
             "Downloade": ""
         },
         {
-            "id" : 1,
-            "image": "",
-            "title": "",
+            "id" : 6,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/css3.png?raw=true",
+            "title": "CSS + css3",
             "body": "",
             "Downloade": ""
         },
         {
-            "id" : 1,
-            "image": "",
-            "title": "",
+            "id" : 7,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/reactjs.png?raw=true",
+            "title": "React.js",
             "body": "",
             "Downloade": ""
         },{
-            "id" : 1,
-            "image": "",
-            "title": "",
+            "id" : 8,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/media%20queries.png?raw=true",
+            "title": "Media Query",
             "body": "",
             "Downloade": ""
         },
 
         {
-            "id" : 1,
-            "image": "",
-            "title": "",
+            "id" : 9,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/codeceptjs.png?raw=true",
+            "title": "Codeceptjs",
             "body": "",
             "Downloade": ""
         },
         {
-            "id" : 1,
-            "image": "",
-            "title": "",
+            "id" : 10,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/jest.png?raw=true",
+            "title": "JEST",
             "body": "",
             "Downloade": ""
         },
         {
-            "id" : 1,
-            "image": "",
-            "title": "",
+            "id" : 11,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/github.png?raw=true",
+            "title": "GitHub",
             "body": "",
             "Downloade": ""
         },
         {
-            "id" : 1,
-            "image": "",
-            "title": "",
+            "id" : 12,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/bootstrap.png?raw=true",
+            "title": "BootStrap",
             "body": "",
             "Downloade": ""
         },
         {
-            "id" : 1,
-            "image": "",
-            "title": "",
+            "id" : 13,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/java%20script.png?raw=true",
+            "title": "JavaScript",
             "body": "",
             "Downloade": ""
         },
         {
-            "id" : 1,
-            "image": "",
-            "title": "",
+            "id" : 14,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/jQuery.png?raw=true",
+            "title": "JQuery",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 15,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/Nodejs.png?raw=true",
+            "title": "NodeJs",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 16,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/postman.png?raw=true",
+            "title": "PostMan",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 17,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/mangodb.jpg?raw=true",
+            "title": "MongoDB",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 18,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/express.jpg?raw=true",
+            "title": "Express js",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 19,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/slack.png?raw=true",
+            "title": "Slack",
+            "body": "",
+            "Downloade": ""
+        },
+        {
+            "id" : 20,
+            "image": "https://github.com/yaminzan9/My-Portfolio.io/blob/master/src/component/imges-import/trello.png?raw=true",
+            "title": "Trello",
             "body": "",
             "Downloade": ""
         }
@@ -194,14 +236,6 @@
         },
         {
             "id": 1,
-            "title" : "ReactNative",
-            "pic" :"",
-            "parent" : ""
-            
-            
-        },
-        {
-            "id": 1,
             "title" : "HTML",
             "pic" :"",
             "parent" : ""
@@ -251,7 +285,7 @@
         },
         {
             "id": 1,
-            "title" : "HTML",
+            "title" : "HTML5",
             "pic" :"",
             "parent" : ""
             
@@ -293,7 +327,7 @@
         },
         {
             "id": 2,
-            "title" : "Jquery",
+            "title" : "JQuery",
             "pic" : "",
             "parent" : ""
             

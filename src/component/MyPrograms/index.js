@@ -1,5 +1,5 @@
 import React, {useState , useEffect} from 'react';
-import {WorkSection , WorkTitle , WorkPart , Imegs , PartTitle , Line , Span , PartDesc ,Mg} from './style.js';
+import {MyProgramsSection , MyProgramsTitle , MyProgramsPart , Imegs , PartTitle , Line , Span , PartDesc ,Mg} from './style.js';
 import axios from 'axios';
 import Data from '../../data.json';
 
@@ -17,13 +17,13 @@ function MyPrograms () {
         console.log(myprograms.image);
         return (
             
-            <WorkPart first={myprograms.id} key={myprograms.id} >
+            <MyProgramsPart first={myprograms.id} key={myprograms.id} >
                 
                 <Imegs  src={myprograms.image} ></Imegs>
                 
                 <PartTitle>{myprograms.title}</PartTitle> 
                 
-            </WorkPart>
+            </MyProgramsPart>
             
             
         )
@@ -31,13 +31,13 @@ function MyPrograms () {
     })
         
         return (
-            <Mg id="Work" >
-            <WorkSection>
+            <Mg id="MyPrograms" >
+            <MyProgramsSection>
             <div  className="container">
-                <WorkTitle><Span>My</Span> programs and features</WorkTitle>
+                <MyProgramsTitle><Span>My</Span> programs and features</MyProgramsTitle>
                 {MyProgramslist}
             </div>
-        </WorkSection>
+        </MyProgramsSection>
         </Mg>
         )
 }

@@ -46,13 +46,13 @@ export const WorkPart = styled.div`
     box-sizing: border-box;
     text-align: center;
     @media screen and (min-width:279px){
-        border :1px solid red;
+        border :0px solid red;
         width: 90%;
         padding-top: 30px;
         margin-left: 5%;
     }
     @media screen and (min-width:600px){
-        border :1px solid black;
+        border :0px solid black;
         width: 40%;
         height: 250px;
         padding-top: 30px;
@@ -60,7 +60,7 @@ export const WorkPart = styled.div`
         
     }
     @media screen and (min-width:800px){
-        border :1px solid yellow;
+        border :0px solid yellow;
         width: 30%;
         padding-top: 30px;
         height: 300px;
@@ -151,7 +151,7 @@ export const PartDesc = styled.p`
         font-size: 15px;
     }
     @media screen and (min-width:1100px){
-        border :1px solid green;
+        border :0px solid green;
         font-size: 20px;
     }
 `
